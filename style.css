@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('Police/Raleway-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'raleway', sans-serif;
+    background-color: #F2F2F2;
+}
+
+#bloc_page {
+    width: 1100px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ---HEADER--- */
+header nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+}
+
+header nav a img {
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    width: 350px;
+    justify-content: space-between;
+    align-items: right;
+}
+
+header nav ul li .trait {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul .trait:hover {
+    text-decoration: overline #0065FC 2px;
+    color: #0065FC;
+}
+
+header nav ul li .inscription {
+    color: #0065FC;
+    text-decoration: none;
+}
+
+header nav ul .inscription:hover {
+    color: #F2F2F2;
+    border: 2px #0065FC solid;
+    border-radius: 5px;
+    background-color: #0065FC;
+}
+
+/* ---MAIN--- */
+
+
+
+/* ---FOOTER--- */
