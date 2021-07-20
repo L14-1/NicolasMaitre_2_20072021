@@ -64,3 +64,25 @@ header nav ul .inscription:hover {
 
 
 /* ---FOOTER--- */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
