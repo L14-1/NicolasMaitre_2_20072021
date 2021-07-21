@@ -63,6 +63,10 @@ header nav ul .inscription:hover {
 
 /* ---RECHERCHE--- */
 
+#recherche {
+    border: none;
+}
+
 /* ---FILTRES--- */
 
 #filtres {
@@ -96,7 +100,10 @@ button i {
     
 }
 
-
+.info i {
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 40px;
+}
 
 /* ---HEBERGEMENTS + POPULAIRES--- */
 
