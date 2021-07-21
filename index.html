@@ -31,13 +31,15 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </section>
-                <form method="post" action="#" id="recherche">
+            <section id="recherche">
+                <form method="post" action="#">
                     <p>
                         <label for="lieu"><i class="fas fa-map-marker-alt"></i></label>
                         <input type="search" name="lieu" id="lieu" placeholder="Marseille, France" size="30" maxlength="10"/>
                         <input type="submit" value="Rechercher" class="rechercher"/>
                     </p>
                 </form>
+            </section>
             <section id="filtres">
                 <h2>Filtres</h2>
                 <button type="button" class="bouttons"><i class="fas fa-money-bill-wave"></i>Economique</button>
@@ -46,7 +48,8 @@
                 <button type="button" class="bouttons"><i class="fas fa-dog"></i></i>Animaux autorisés</button>
             </section>
             <p class="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville<p></p>
-            <section id="hebergements">
+            <section id="milieu_de_page">
+            <article id="hebergements">
                 <h2>Hébergements à Marseille</h2>
                 <div class="ligne_1">
                     <a href="#" >
@@ -150,14 +153,14 @@
                     </a>     
                 </div>
                 <a href="#">Afficher plus</a>
-            </section>
-            <aside>
+            </sarticle>
+            <aside id=populaires>
                 <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                 <div class="colomne">
                     <a href="#" >
                         <figure class="visuel_colomne">
                             <div class="conteneur__visuel_colomne">
-                                <p><img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="lit mirroir"></p>
+                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="lit mirroir">
                                 <figcaption> 
                                     <h3>Hôtel Le soleil du matin</h3>
                                     <p>Nuit à partir de 128<strong>€</strong></p>
@@ -204,6 +207,7 @@
                     </a>
                 </div>
             </aside>
+            </section>
             <section id="activites">
                 <h2>Activités à Marseille</h2>
                 <div class="entier">
