@@ -34,7 +34,7 @@
             <section id="recherche">
                 <form method="post" action="#">
                     <p>
-                        <label for="lieu"><i class="fas fa-map-marker-alt"></i></label>
+                        <label for="lieu" class="indicateur"><i class="fas fa-map-marker-alt"></i></label>
                         <input type="search" name="lieu" id="lieu" placeholder="Marseille, France" size="30" maxlength="10"/>
                         <input type="submit" value="Rechercher" class="rechercher"/>
                     </p>
@@ -42,12 +42,12 @@
             </section>
             <section id="filtres">
                 <h2>Filtres</h2>
-                <button type="button" class="bouttons"><i class="fas fa-money-bill-wave"></i>Economique</button>
-                <button type="button" class="bouttons"><i class="fas fa-child"></i>Familial</button>
-                <button type="button" class="bouttons"><i class="fas fa-heart"></i>Romantique</button>
-                <button type="button" class="bouttons"><i class="fas fa-dog"></i></i>Animaux autorisés</button>
+                <button type="button" class="bouttons"><i class="fas fa-money-bill-wave"></i><span class="filtresboutton">Economique</span></button>
+                <button type="button" class="bouttons"><i class="fas fa-child"></i><span class="filtresboutton">Familial</span></button>
+                <button type="button" class="bouttons"><i class="fas fa-heart"></i><span class="filtresboutton">Romantique</span></button>
+                <button type="button" class="bouttons"><i class="fas fa-dog"></i></i><span class="filtresboutton">Animaux autorisés</span></button>
             </section>
-            <p class="info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville<p></p>
+            <p class="info"><i class="fas fa-info"></i><span class="texteinfo"></span>Plus de 500 logements sont disponibles dans cette ville<p></p>
             <section id="milieu_de_page">
             <article id="hebergements">
                 <h2>Hébergements à Marseille</h2>
