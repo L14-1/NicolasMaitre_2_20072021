@@ -170,14 +170,21 @@ button i {
     margin: 20px;
 }
 
-#hebergements a {
+.afficherplus {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.afficherplus:hover {
+    text-decoration: underline;
+    color: #0065FC;
+}
+
+#hebergements .conteneur a {
     color: black;
     text-decoration: none;
     font-size: 0.6em;
-}
-
-#hebergements i {
-    color: #0065FC;
 }
 
 #hebergements img {
@@ -199,7 +206,7 @@ button i {
 }
 
 #hebergements .conteneur {
-    border-radius: 30px;
+    border-radius: 15px;
     border: 5px solid white;
     overflow: hidden;
     background-color: white;
@@ -227,30 +234,40 @@ button i {
     box-shadow: 0px 0px 12px 3px #d2d2d2;
 }
 
-#populaires img {
-    width: 50%;
-    height: 80%;
-    object-fit: cover;
-}
-
-#populaires .visuel_colomne {
-    display: flex;
-    flex-direction: row;
-}
-
-.visuel_colomne {
-    border-radius: 30px;
-    border: 5px solid white;
-    overflow: hidden;
-    background-color: white;
-    box-shadow: 0px 0px 12px 3px #d2d2d2;
-}
-
 #populaires {
     border: 1px solid #F2F2F2;
     background-color: #f2f2f2;
     border-radius: 10px;
     width: 340px;
+    height: 600px;
+}
+
+.colomne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 470px;
+    align-items: center;
+}
+
+#populaires img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+
+.conteneur_bis a {
+    display: flex;
+    flex-direction: row;
+}
+
+.conteneur_bis {
+    border-radius: 15px;
+    border: 5px solid white;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 12px 3px #d2d2d2;
+    width: 300px;
 }
 
 #populaires a {
@@ -267,8 +284,12 @@ button i {
     margin: 10px;
 }
 
-.visuel_colomne i {
-    color: #0065FC
+.bluestar {
+    color:blue;
+}
+
+.greystar {
+    color:#F2F2F2;
 }
 
 #milieu_de_page {
