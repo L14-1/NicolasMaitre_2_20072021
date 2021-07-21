@@ -5,7 +5,6 @@
 
 body, button {
     font-family: 'raleway', sans-serif;
-    background-color: #F2F2F2;
 }
 
 #bloc_page {
@@ -21,11 +20,11 @@ ul {
 header nav {
     display: flex;
     flex-direction: row;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 header nav a img {
-    width: 150px;
+    width: 100px;
 }
 
 header nav ul {
@@ -40,7 +39,7 @@ header nav ul {
 header nav ul li .trait {
     color: black;
     text-decoration: none;
-    padding: 25px;
+    padding: 20px;
     
     
 }
@@ -53,13 +52,14 @@ header nav ul .trait:hover {
 header nav ul li .inscription {
     color: #0065FC;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
+    font-weight: bold;
 }
 
 header nav ul .inscription:hover {
     color: #F2F2F2;
     border: 2px #0065FC solid;
-    border-radius: 5px;
+    border-radius: 30px;
     background-color: #0065FC;
 }
 
@@ -70,8 +70,8 @@ header nav ul .inscription:hover {
     display: flex;
 }
 #recherche p {
-    border: 2px solid rgb(207, 207, 207);
-    border-radius: 30px;
+    border: 2px solid #f2f2f2;
+    border-radius: 15px;
     background-color: white;
     overflow: hidden;
 }
@@ -86,12 +86,12 @@ header nav ul .inscription:hover {
     color: white;
     cursor: pointer;
     font-size: 1em;
-    padding: 15px;
+    padding: 10px;
 }
 
 #recherche .indicateur {
-    background-color: rgb(207, 207, 207);
-    border: solid rgb(207, 207, 207);
+    background-color: #f2f2f2;
+    border: solid #f2f2f2;
     padding: 15px;
 }
 
@@ -104,11 +104,10 @@ header nav ul .inscription:hover {
 #filtres {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 button {
-    border: 1px solid rgb(179, 179, 179);
+    border: none;
     border-style: ;
     border-radius: 80px;
     font-weight: bold;
@@ -117,51 +116,60 @@ button {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    background-color: white;
 }
 
 button .filtresboutton {
-    
-    margin: 15px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    padding-right: 15px;
 }
 
 button i {
     color: #0065FC;
-    border: 15px solid #DEEBFF;
+    border: 1px solid #DEEBFF;
     border-radius: 50px;
     background-color: #DEEBFF;
+    padding : 15px;
 }
-.bouttons:hover {
+.bouttons .filtresboutton:hover {
     background-color: #0065FC;
     color: white;
     
 }
 
 .info i {
-    border: 1px solid rgb(179, 179, 179);
-    border-radius: 15px;
+    border: 1px solid #f2f2f2;
+    border-radius: 50px;
     padding: 10px;
+    color: #0065FC;
 }
 
 .info .texteinfo{
     margin: 15px;
 }
+
+.afficherplus {
+    font-weight: bold;
+    font-size: 1em;
+}
 /* ---HEBERGEMENTS + POPULAIRES--- */
 
 #hebergements {
-    border: 1px solid rgb(207, 207, 207);
-    background-color: rgb(207, 207, 207);
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 10px;
-    flex: 3;
+    width: 740px;
 }
 
-#hebergements h2, a {
+#hebergements h2, .afficherplus {
     margin: 20px;
 }
 
 #hebergements a {
     color: black;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 #hebergements i {
@@ -169,8 +177,8 @@ button i {
 }
 
 #hebergements img {
-    width: 200px;
-    height: 125px;
+    width: 150px;
+    height: 100px;
 }
 
 #hebergements figcaption {
@@ -180,16 +188,14 @@ button i {
 .ligne_1 {
     display: flex;
     flex-direction: row;
-    
 }
 
 .ligne_2 {
     display: flex;
     flex-direction: row;
-    
 }
 
-.ligne_1 figure {
+#hebergements figure {
     border-radius: 30px;
     border: 5px solid white;
     overflow: hidden;
@@ -197,7 +203,17 @@ button i {
     box-shadow: 0px 0px 12px 3px #d2d2d2;
 }
 
-.ligne_2 figure {
+.ligne_1 figure:hover {
+    background-color: #DEEBFF;
+    border-color: #DEEBFF;
+}
+
+.ligne_2 figure:hover {
+    background-color: #DEEBFF;
+    border-color: #DEEBFF;
+}
+
+.ligne_2 .visuel {
     border-radius: 30px;
     border: 5px solid white;
     overflow: hidden;
@@ -210,7 +226,7 @@ button i {
     height: 125px;
 }
 
-#populaires .conteneur__visuel_colomne {
+#populaires .visuel_colomne {
     display: flex;
     flex-direction: row;
 }
@@ -224,15 +240,34 @@ button i {
 }
 
 #populaires {
-    border: 1px solid rgb(207, 207, 207);
-    background-color: rgb(207, 207, 207);
+    border: 1px solid #F2F2F2;
+    background-color: #f2f2f2;
     border-radius: 10px;
-    flex: 1.2;
+    width: 340px;
+}
+
+#populaires a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.6em;
+}
+
+#populaires h2 {
+    margin: 20px;
+}
+
+#populaires figcaption {
+    margin: 10px;
+}
+
+.visuel_colomne i {
+    color: #0065FC
 }
 
 #milieu_de_page {
     display: flex;
-    
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* ---FOOTER--- */
