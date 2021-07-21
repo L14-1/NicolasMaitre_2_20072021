@@ -3,7 +3,7 @@
     src: url('Police/Raleway-VariableFont_wght.ttf');
 }
 
-body {
+body, button {
     font-family: 'raleway', sans-serif;
     background-color: #F2F2F2;
 }
@@ -61,7 +61,64 @@ header nav ul .inscription:hover {
 
 /* ---MAIN--- */
 
+/* ---RECHERCHE--- */
 
+/* ---FILTRES--- */
+
+#filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+button {
+    border: 1px solid rgb(179, 179, 179);
+    border-style: ;
+    border-radius: 80px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button i {
+    color: #0065FC;
+    border: 15px solid #DEEBFF;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+}
+.bouttons:hover {
+    background-color: #0065FC;
+    color: white;
+    
+}
+
+
+
+/* ---HEBERGEMENTS + POPULAIRES--- */
+
+#hebergements img {
+    width: 150px;
+    height: 100px;
+}
+
+.visuel_colomne p:first-child {
+    width: 100px; 
+    height: 100px; 
+    overflow: hidden;
+}
+
+.visuel_colomne p:first-child img {
+    margin: -150px;
+}
+
+.visuel_colomne {
+    display: flex;
+    flex-direction: row;
+}
 
 /* ---FOOTER--- */
 
