@@ -285,6 +285,12 @@ button i {
     left: -8Opx
 }
 
+.titre_pop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 #populaires a {
     color: black;
     text-decoration: none;
@@ -341,12 +347,6 @@ button i {
     object-fit: cover;
 }
 
-.moitie img {
-    width: 250px;
-    height: 100px;
-    object-fit: cover;
-}
-
 .moitie {
     display: flex;
     flex-direction: column;
@@ -364,29 +364,46 @@ button i {
     font-weight: bold;
 }
 
-.titre_pop {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.img1 {
+    width: 250px;
+    height: 125px;
+    object-fit: cover; 
 }
+
+.img2 {
+    width: 250px;
+    height: 75px;
+    object-fit: cover;}
+
+.img3 {
+    width: 250px;
+    height: 90px;
+    object-fit: cover;}
+
+.img4 {
+    width: 250px;
+    height: 110px;
+    object-fit: cover;}
 
 /* ---FOOTER--- */
 
 footer {
     background-color: #F2F2F2;
-    
 }
 
 #pied_de_page {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     width: 1100px;
     margin: auto;
 }
 
+footer ul:nth-child(n+2) {
+    margin-left: 10em;
+}
+
 footer ul li:first-child {
-    margin-bottom: 5px;
+    margin-bottom: 1.2em;
 }
 
 footer ul li a {
