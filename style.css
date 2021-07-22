@@ -353,7 +353,6 @@ button i {
     justify-content: space-between;
 }
 
-
 .conteneur_act a {
     color: black;
     text-decoration: none;
@@ -375,21 +374,19 @@ button i {
 
 footer {
     background-color: #F2F2F2;
-    padding-bottom: 30px;
-
+    
 }
 
 #pied_de_page {
     display: flex;
     flex-direction: row;
-    margin-right: 40px;
     justify-content: space-between;
+    width: 1100px;
+    margin: auto;
 }
 
-footer ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+footer ul li:first-child {
+    margin-bottom: 5px;
 }
 
 footer ul li a {
@@ -402,6 +399,3 @@ footer ul li a:hover {
     text-decoration: underline;
 }
 
-.a_propos {
-    height: 100px;
-}
