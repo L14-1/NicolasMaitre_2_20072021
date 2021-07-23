@@ -444,9 +444,8 @@ footer ul li a:hover {
 
 @media screen and (max-device-width: 688px), (max-width: 688px) {
   
-  #bloc_page {
+  body {
     width: auto;
-    margin: 0px;
   }
   
   header nav {
@@ -464,7 +463,14 @@ footer ul li a:hover {
   }
 
   /* ---------------- HEB + POP ---------------------- */
-  
+   body {
+     width: auto;
+   }
+
+   article.conteneur {
+     width: auto;
+   }
+
   #milieu_de_page {
     flex-direction: column-reverse;
   }
@@ -497,7 +503,7 @@ footer ul li a:hover {
   }
 
   #hebergements img {
-    width: 688px;
+    width: fit-content;
     height: 12em;
   }
 
@@ -511,17 +517,17 @@ footer ul li a:hover {
   .cadre {
     flex-direction: column;
     justify-content: space-between;
-    height: 120em;
+    height: 170em;
   }
 
   .cadre .moitie {
     justify-content: space-between;
-    height: 37em;
+    height: 53em;
   }
 
   .cadre img {
-    width: 688px;
-    height: 15em;
+    width: fit-content;
+    height: 25em;
   }
 
   /* ---------------- FOOTER ------------------------- */
