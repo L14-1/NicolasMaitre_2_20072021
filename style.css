@@ -439,3 +439,73 @@ footer ul li a {
 footer ul li a:hover {
   text-decoration: underline;
 }
+
+/* ----------------------------- MOBILE < 688px ------------------------------------- */
+
+@media screen and (max-device-width: 688px), (max-width: 688px) {
+  
+  #bloc_page {
+    width: auto;
+    margin: 0px;
+  }
+  
+  header nav {
+    flex-direction: block;
+  }
+
+  header nav ul {
+    display: block;
+  }
+  /* ---------------- HEB + POP ---------------------- */
+  
+  #milieu_de_page {
+    flex-direction: column-reverse;
+  }
+
+  /* ---------------- ACTIVITES ---------------------- */
+
+  .cadre {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120em;
+  }
+
+  .cadre .moitie {
+    justify-content: space-between;
+    height: 37em;
+  }
+
+  .cadre img {
+    width: 688px;
+    height: 15em;
+  }
+
+  /* ---------------- FOOTER ------------------------- */
+
+  #pied_de_page {
+    flex-direction: column;
+    height: 20em;
+    font-size: 2em;
+  }
+
+  #pied_de_page ul {
+    margin-top: auto;
+  }
+
+  footer ul:nth-child(n + 2) {
+    margin: 0;
+  }
+
+  footer {
+    width: auto;
+  }
+
+  footer ul li a:hover {
+    text-decoration: none;
+  }
+
+}
+
+/* --- TABLET < 992px --- */
+
+/* --- SMALL SCREEN < 1312px --- */
