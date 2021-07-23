@@ -456,10 +456,54 @@ footer ul li a:hover {
   header nav ul {
     display: block;
   }
+
+  /* ---------------- FILTRES ------------------------ */
+
+  #filtres {
+    flex-direction: column;
+  }
+
   /* ---------------- HEB + POP ---------------------- */
   
   #milieu_de_page {
     flex-direction: column-reverse;
+  }
+
+  #hebergements {
+    background-color: white;
+    border: none;
+    width: auto;
+    height: 105em;
+    justify-content: space-between;
+  }
+
+  .afficherplus {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  .afficherplus:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  #hebergements, .ligne_1, .ligne_2 {
+    flex-direction: column;
+  }
+
+  .ligne_1, .ligne_2 {
+    height: 50em;
+    font-size: 1.1em;
+  }
+
+  #hebergements img {
+    width: 688px;
+    height: 12em;
+  }
+
+  #populaires {
+    width: auto;
+    justify-content: space-between;
   }
 
   /* ---------------- ACTIVITES ---------------------- */
