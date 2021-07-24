@@ -165,6 +165,12 @@ button i {
   margin: 1em;
 }
 
+.btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 /* ---HEBERGEMENTS + POPULAIRES--- */
 
 #hebergements {
@@ -187,6 +193,7 @@ button i {
   font-size: 1em;
   text-decoration: none;
   color: black;
+  margin-top: 1em;
 }
 
 .afficherplus:hover {
@@ -452,7 +459,15 @@ footer ul li a:hover {
 
   #filtres {
     flex-direction: column;
+    height: auto;
+    width: auto;
   }
+
+  .filtresboutton {
+    font-size: 3.5em;
+    margin-top: 1.5em;
+  }
+
 
   /* ---------------- HEB + POP ---------------------- */
 
@@ -468,10 +483,6 @@ footer ul li a:hover {
     }
 
    body {
-     width: auto;
-   }
-
-   article.conteneur {
      width: auto;
    }
 
@@ -556,19 +567,20 @@ footer ul li a:hover {
   .cadre {
     flex-direction: column;
     justify-content: space-between;
-    height: 170em;
+    height: auto;
     margin-left: 2em;
     margin-right: 2em;
+    font-size: 3em;
   }
 
   .cadre .moitie {
     justify-content: space-between;
-    height: 53em;
+    height: auto;
   }
 
   .cadre img {
     width: fit-content;
-    height: 25em;
+    height: 12em;
   }
 
   /* ---------------- FOOTER ------------------------- */
