@@ -463,6 +463,8 @@ footer ul li a:hover {
     .titre_pop {
       font-size: 3em;
       justify-content: space-between;
+      margin-right: 1em;
+      margin-left: 1em;
     }
 
    body {
@@ -504,8 +506,13 @@ footer ul li a:hover {
     margin-right: 2em;
   }
 
+  .resume {
+    font-size: 3em;
+  }
+
   .resume i {
     font-size: 0.7em;
+    margin-right: 1em;
   }
 
   #hebergements img {
