@@ -483,11 +483,13 @@ footer ul li a:hover {
     width: auto;
     height: auto;
     justify-content: space-between;
+    Margin-top: 2em;
   }
 
   .afficherplus {
     font-size: 1.5em;
     font-weight: bold;
+    margin-top: 2em;
   }
 
   .afficherplus:hover {
@@ -498,6 +500,8 @@ footer ul li a:hover {
   .div-heb {
     display: block;
     font-size: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 
   .resume i {
@@ -513,6 +517,8 @@ footer ul li a:hover {
     width: auto;
     justify-content: space-between;
     height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .conteneur_bis {
@@ -523,6 +529,9 @@ footer ul li a:hover {
     align-items: stretch;
     height: auto;
     justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
   }
 
   #populaires img {
@@ -541,6 +550,8 @@ footer ul li a:hover {
     flex-direction: column;
     justify-content: space-between;
     height: 170em;
+    margin-left: 2em;
+    margin-right: 2em;
   }
 
   .cadre .moitie {
