@@ -455,6 +455,10 @@ footer ul li a:hover {
     font-weight: normal;
   }
 
+  h2 {
+    font-weight: normal;
+  }
+
   header nav {
     flex-flow: row wrap;
   }
