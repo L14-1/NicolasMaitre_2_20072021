@@ -452,6 +452,7 @@ footer ul li a:hover {
   
   body {
     width: auto;
+    font-weight: normal;
   }
 
   header nav {
@@ -479,8 +480,13 @@ footer ul li a:hover {
   header nav .trait {
     padding-bottom: 1em;
     border-bottom:  10px solid  #F2F2F2;
+    text-align: center;
   }
 
+  header nav .inscription {
+    text-align: right;
+    margin-right: 1em;
+  }
   header nav a:nth-child(2) {
     border-bottom:  10px solid  #0065fc;
     color: #0065fc;
