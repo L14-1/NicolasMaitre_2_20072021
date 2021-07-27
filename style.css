@@ -36,8 +36,8 @@ header nav a img {
 header nav a {
   color: black;
   text-decoration: none;
-  padding-right: 1.2em;
-  padding-left: 1.2em;
+  padding-right: 1.20em;
+  padding-left: 1.20em;
   padding-top: 1.4em;
 }
 
@@ -76,8 +76,7 @@ header nav .inscription:hover {
   border: none;
 }
 
-.rechercher,
-.loupe {
+.rechercher, .loupe {
   border: 2px solid #0065fc;
   background-color: #0065fc;
   color: white;
@@ -136,13 +135,13 @@ button .filtresboutton {
 }
 
 button .filtresboutton p {
-  margin-left: 0.5em;
-  font-weight: bold;
-  font-size: 1.1em;
+    margin-left: 0.5em;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 #filtres h2 {
-  margin-right: 1.2em;
+    margin-right: 1.2em;
 }
 
 button i {
@@ -158,7 +157,7 @@ button i {
 }
 
 .bouttons .filtresboutton:hover {
-  background-color: #deebff;
+  background-color: #DEEBFF;
 }
 
 .info i {
@@ -228,6 +227,7 @@ button i {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 
 #hebergements .conteneur {
   border-radius: 1em;
@@ -448,7 +448,8 @@ footer ul li a:hover {
 
 /* ----------------------------- MOBILE < 688px ------------------------------------- */
 
-@media all and (max-width: 688px) {
+@media all and (max-device-width: 688px) {
+  
   body {
     width: auto;
     font-weight: normal;
@@ -461,9 +462,9 @@ footer ul li a:hover {
   header nav {
     flex-flow: row wrap;
   }
-
+  
   nav a:nth-child(2) {
-    order: 3;
+    order: 3
   }
 
   nav a:nth-child(3) {
@@ -482,7 +483,7 @@ footer ul li a:hover {
 
   header nav .trait {
     padding-bottom: 1em;
-    border-bottom: 10px solid #f2f2f2;
+    border-bottom:  10px solid  #F2F2F2;
     text-align: center;
   }
 
@@ -491,9 +492,11 @@ footer ul li a:hover {
     margin-right: 1em;
   }
   header nav a:nth-child(2) {
-    border-bottom: 10px solid #0065fc;
+    border-bottom:  10px solid  #0065fc;
     color: #0065fc;
   }
+
+  
 
   /* ---------------- FILTRES ------------------------ */
 
@@ -530,31 +533,26 @@ footer ul li a:hover {
     margin-top: 1.5em;
   }
 
-  .bouttons {
-    margin-left: 0px;
-  }
-  
 
   /* ---------------- HEB + POP ---------------------- */
 
-  h2 {
-    font-size: 5em;
-  }
+    h2 {
+      font-size: 5em;
+    }
 
-  .titre_pop {
-    font-size: 3em;
-    justify-content: space-between;
-    margin-right: 1em;
-    margin-left: 1em;
-  }
+    .titre_pop {
+      font-size: 3em;
+      justify-content: space-between;
+      margin-right: 1em;
+      margin-left: 1em;
+    }
 
-  body {
-    width: auto;
-  }
+   body {
+     width: auto;
+   }
 
   #milieu_de_page {
     flex-direction: column-reverse;
-    height: auto;
   }
 
   #hebergements {
@@ -563,11 +561,7 @@ footer ul li a:hover {
     width: auto;
     height: auto;
     justify-content: space-between;
-    margin-top: 2em;
-  }
-
-  #hebergements .conteneur {
-    border-radius: 3em;
+    Margin-top: 2em;
   }
 
   .afficherplus {
@@ -588,15 +582,13 @@ footer ul li a:hover {
     margin-right: 4em;
   }
 
-  #hebergements .resume {
-    font-size: 1rem;
-    margin-left: 3em;
-    font-weight: normal;
+  .resume {
+    font-size: 3em;
   }
 
   .resume i {
-    font-size: 0.7rem;
-    margin-right: 0.8em;
+    font-size: 0.7em;
+    margin-right: 1em;
   }
 
   #hebergements img {
@@ -611,24 +603,17 @@ footer ul li a:hover {
     height: auto;
   }
 
-  #populaires .resume i {
-    font-size: 1em;
-    margin-right: 0.1em;
-  }
-
   .conteneur_bis {
     width: auto;
-    height: auto;
-    margin-bottom: 2em;
-    border-radius: 3em;
   }
 
   .colomne {
     align-items: stretch;
+    height: auto;
+    justify-content: space-between;
     margin-left: 4em;
     margin-right: 4em;
     margin-bottom: 1em;
-    height: auto;
   }
 
   #populaires img {
@@ -662,11 +647,6 @@ footer ul li a:hover {
     height: 12em;
   }
 
-  .conteneur_act {
-    margin-bottom: 2em;
-    border-radius: 2em;
-  }
-
   /* ---------------- FOOTER ------------------------- */
 
   #pied_de_page {
@@ -687,6 +667,7 @@ footer ul li a:hover {
   footer ul li a:hover {
     text-decoration: none;
   }
+
 }
 
 /* --- TABLET < 992px --- */
