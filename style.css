@@ -438,7 +438,8 @@ footer {
 #pied_de_page {
   display: flex;
   flex-direction: row;
-  width: 1100px;
+  width: auto;
+  max-width: 1100px;
   margin: auto;
 }
 
@@ -463,14 +464,6 @@ footer ul li a:hover {
 /* ----------------------------- MOBILE < 425px ------------------------------------- */
 
 @media all and (max-width: 688px) {
-  body {
-    font-weight: normal;
-  }
-
-  h2 {
-    font-weight: normal;
-  }
-
   header nav {
     flex-flow: row wrap;
   }
@@ -489,7 +482,6 @@ footer ul li a:hover {
 
   header nav a {
     flex: 1 40%;
-    font-size: 3em;
     padding-right: 0px;
   }
 
@@ -515,16 +507,11 @@ footer ul li a:hover {
     background-color: white;
   }
 
-  .centreville {
-    font-size: 2.5em;
-  }
+  
 
   /* ---------------- FILTRES ------------------------ */
 
-  #recherche {
-    width: auto;
-    font-size: 2em;
-  }
+  
 
   .rechercher {
     display: none;
@@ -541,18 +528,13 @@ footer ul li a:hover {
   }
 
   .filtresboutton {
-    font-size: 3.5em;
     margin-top: 1.5em;
   }
 
   /* ---------------- HEB + POP ---------------------- */
 
-  h2 {
-    font-size: 5em;
-  }
 
   .titre_pop {
-    font-size: 3em;
     justify-content: space-between;
     margin-right: 1em;
     margin-left: 1em;
@@ -577,7 +559,6 @@ footer ul li a:hover {
   }
 
   .afficherplus {
-    font-size: 1.5em;
     font-weight: bold;
     margin-top: 2em;
   }
@@ -589,15 +570,6 @@ footer ul li a:hover {
 
   .div-heb {
     display: block;
-    font-size: 1.5em;
-  }
-
-  .resume {
-    font-size: 3em;
-  }
-
-  .resume i {
-    font-size: 0.7em;
   }
 
   #hebergements img {
@@ -633,7 +605,6 @@ footer ul li a:hover {
   }
 
   #populaires .resume {
-    font-size: 2.5em;
     line-height: 0.5em;
   }
 
@@ -645,7 +616,7 @@ footer ul li a:hover {
     height: auto;
     margin-left: 2em;
     margin-right: 2em;
-    font-size: 3em;
+    width: auto;
   }
 
   .cadre .moitie {
@@ -667,7 +638,6 @@ footer ul li a:hover {
   #pied_de_page {
     flex-direction: column;
     height: 20em;
-    font-size: 2em;
     width: auto;
   }
 
