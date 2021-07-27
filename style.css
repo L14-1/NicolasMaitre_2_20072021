@@ -470,6 +470,36 @@ footer ul li a:hover {
     order: 4;
   }
 
+<<<<<<< HEAD
+=======
+  header nav a img {
+    padding-right: 0px;
+  }
+
+  header nav a {
+    flex: 1 40%;
+    font-size: 3em;
+    padding-right: 0px;
+  }
+
+  header nav .trait {
+    padding-bottom: 1em;
+    border-bottom:  10px solid  #F2F2F2;
+    text-align: center;
+  }
+
+  header nav .inscription {
+    text-align: right;
+    margin-right: 1em;
+  }
+  header nav a:nth-child(2) {
+    border-bottom:  10px solid  #0065fc;
+    color: #0065fc;
+  }
+
+  
+
+>>>>>>> parent of f911c60 (border mobile + espaces entre conteneur + filtres alignés à gauche)
   /* ---------------- FILTRES ------------------------ */
 
   #recherche {
@@ -564,8 +594,11 @@ footer ul li a:hover {
     width: auto;
     justify-content: space-between;
     height: auto;
+<<<<<<< HEAD
     margin-left: 1em;
     margin-right: 1em;
+=======
+>>>>>>> parent of f911c60 (border mobile + espaces entre conteneur + filtres alignés à gauche)
   }
 
   .conteneur_bis {
