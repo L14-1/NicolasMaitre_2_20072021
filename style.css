@@ -448,7 +448,7 @@ footer ul li a:hover {
 
 /* ----------------------------- MOBILE < 688px ------------------------------------- */
 
-@media all and (max-device-width: 688px) {
+@media all and (max-width: 688px) {
   body {
     width: auto;
     font-weight: normal;
@@ -673,6 +673,7 @@ footer ul li a:hover {
     flex-direction: column;
     height: 20em;
     font-size: 2em;
+    width: auto;
   }
 
   #pied_de_page ul {
@@ -681,10 +682,6 @@ footer ul li a:hover {
 
   footer ul:nth-child(n + 2) {
     margin: 0;
-  }
-
-  footer {
-    width: 200vh;
   }
 
   footer ul li a:hover {
