@@ -6,7 +6,6 @@
 body,
 button {
   font-family: "raleway", sans-serif;
-  margin: auto;
 }
 
 #bloc_page {
@@ -471,42 +470,11 @@ footer ul li a:hover {
     order: 4;
   }
 
-  header nav a img {
-    padding-right: 0px;
-  }
-
-  header nav a {
-    flex: 1 40%;
-    font-size: 3em;
-    padding-right: 0px;
-  }
-
-  header nav .trait {
-    padding-bottom: 1em;
-    border-bottom:  10px solid  #F2F2F2;
-    text-align: center;
-  }
-
-  header nav .inscription {
-    text-align: right;
-    margin-right: 1em;
-  }
-  header nav a:nth-child(2) {
-    border-bottom:  10px solid  #0065fc;
-    color: #0065fc;
-  }
-
-  
-
   /* ---------------- FILTRES ------------------------ */
 
-  .titre_recherche {
-    margin-left: 2em;
-    margin-left: 2em;
-  }
-
   #recherche {
-    font-size: 2.5em;
+    width: auto;
+    font-size: 2em;
   }
 
   .rechercher {
@@ -521,11 +489,6 @@ footer ul li a:hover {
     flex-direction: column;
     height: auto;
     width: auto;
-    margin: 0 2em 4em 2em;
-  }
-
-  #filtres h3 {
-    font-size: 4em;
   }
 
   .filtresboutton {
@@ -601,6 +564,8 @@ footer ul li a:hover {
     width: auto;
     justify-content: space-between;
     height: auto;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .conteneur_bis {
