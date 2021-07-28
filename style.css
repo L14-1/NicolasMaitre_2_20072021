@@ -33,12 +33,14 @@ ul {
 header nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 header nav a img {
   width: 6.25em;
-  padding-right: 35vw;
+}
+
+header nav a:first-child {
+  flex-grow: 1.8;
 }
 
 header nav a {
@@ -526,7 +528,7 @@ footer ul li a:hover {
   }
 
   .entier img {
-    width: 60vh;
+    width: 60vw;
   }
 
   .moitie {
@@ -534,7 +536,7 @@ footer ul li a:hover {
   }
 
   .moitie img {
-    width: 60vh;
+    width: 60vw;
   }
 
   .conteneur_act {
@@ -551,6 +553,27 @@ footer ul li a:hover {
 
     .conteneur_bis {
       width: 70vw;
+    }
+
+    /* ---------------- FOOTER ------------------------- */
+    
+    #pied_de_page {
+      flex-direction: column;
+      height: 20em;
+      width: fit-content;
+      padding-bottom: 3em;
+    }
+  
+    #pied_de_page ul {
+      margin-top: auto;
+    }
+  
+    footer ul:nth-child(n + 2) {
+      margin: 0;
+    }
+  
+    footer ul li a:hover {
+      text-decoration: none;
     }
     
 
@@ -657,26 +680,7 @@ footer ul li a:hover {
         height: 10em;
       }
     
-      /* ---------------- FOOTER ------------------------- */
-    
-      #pied_de_page {
-        flex-direction: column;
-        height: 20em;
-        width: fit-content;
-        padding-bottom: 3em;
-      }
-    
-      #pied_de_page ul {
-        margin-top: auto;
-      }
-    
-      footer ul:nth-child(n + 2) {
-        margin: 0;
-      }
-    
-      footer ul li a:hover {
-        text-decoration: none;
-      }
+      
     }
   }
 
