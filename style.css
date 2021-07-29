@@ -207,10 +207,9 @@ button i {
   border-radius: 0.6em;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   width: auto;
   margin-right: 1em;
-  flex: 1 70%;
+  flex: 1 58%;
 }
 
 #hebergements h2,
@@ -239,8 +238,8 @@ button i {
 }
 
 #hebergements img {
-  width: 20em;
-  height: 10em;
+  width: 17em;
+  height: 8.5em;
   object-fit: cover;
 }
 
@@ -274,14 +273,14 @@ button i {
   overflow: hidden;
   background-color: white;
   box-shadow: 0px 0px 12px 3px #d2d2d2;
-  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 #populaires {
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
   border-radius: 0.6em;
-  height: 40em;
+  height: 36em;
   width: auto;
   flex: 1 27%
 }
@@ -289,14 +288,13 @@ button i {
 .colomne {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 29.375em;
+  justify-content: space-between;
   align-items: center;
 }
 
 #populaires img {
   width: 10em;
-  height: 12em;
+  height: 10.5em;
   object-fit: cover;
 }
 
@@ -311,7 +309,7 @@ button i {
   overflow: hidden;
   background-color: white;
   box-shadow: 0px 0px 12px 3px #d2d2d2;
-  margin: 0.5em;
+  margin-bottom: 1em;
 }
 
 .conteneur_bis:hover {
@@ -319,18 +317,15 @@ button i {
   border-color: #deebff;
 }
 
+#hebergements h2 {
+  margin-bottom: 1.5em;
+  margin-top: 1.2em;
+}
+
 .titre_pop {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-
-#hebergements h2 {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.titre_pop {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 1.5em;
@@ -347,12 +342,18 @@ h6 {
   font-size: 0.7em;
 }
 
-#populaires h2 {
-  margin: 1.25em;
-}
-
 #populaires .resume {
   margin: 0.6em;
+  width: 13em;
+}
+
+#populaires .resume h3 {
+  margin: 0
+}
+
+#populaires .resume p {
+  margin-top: 0.2em;
+  margin-bottom: 4em;
 }
 
 .bluestar {
@@ -514,6 +515,7 @@ footer ul li a:hover {
     flex-direction: row;
     height: auto;
     margin-bottom: 1em;
+    justify-content: space-around;
   }
 
   .cadre {
@@ -547,14 +549,14 @@ footer ul li a:hover {
 
 
 
-  @media all and (max-width: 930px) {
+  @media all and (max-width: 964px) {
 
     .colomne {
       flex-direction: column;
     }
 
     .conteneur_bis {
-      width: 70vw;
+      width: 85vw;
     }
 
     #pied_de_page {
@@ -593,17 +595,18 @@ footer ul li a:hover {
       }
     
       header nav a img {
-        padding-right: 0px;
+        padding: 2em 0 0 1em;
       }
     
       header nav a {
         flex: 1 40%;
         padding-right: 0px;
+        padding: 0em; !important
+
       }
-    
+
       header nav .trait {
-        padding-bottom: 1em;
-        border-bottom: 5px solid #f2f2f2;
+        border-bottom: 4px solid #f2f2f2;
         text-align: center;
       }
     
@@ -613,7 +616,7 @@ footer ul li a:hover {
       }
       
       header nav .trait:hover {
-        border-bottom: 5px solid #0065fc;
+        border-bottom: 4px solid #0065fc;
         border-top: none;
       }
     
@@ -622,11 +625,16 @@ footer ul li a:hover {
         color: #0065fc;
         background-color: white;
       }
-    
       
-    
-      /* ---------------- FILTRES ------------------------ */
-    
+      #corps {
+        margin-right: 0;
+        margin-left: 0;
+      }
+      
+      .en_tete {
+        margin-left: 1em;
+        margin-right: 1em;
+      }
       #recherche {
         width: auto;
         justify-content: space-evenly;
@@ -648,6 +656,8 @@ footer ul li a:hover {
         flex-direction: column;
         height: auto;
         width: auto;
+        margin-left: 1em;
+        margin-right: 1em;
       }
     
       .filtresboutton {
@@ -655,8 +665,9 @@ footer ul li a:hover {
       }
       
       .titre_pop {
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 0.7em;
+        margin-right: 0.7em;
+        justify-content: space-between;
       }
 
       #hebergements {
@@ -664,32 +675,45 @@ footer ul li a:hover {
         border-color: transparent;
       }
 
+      #hebergements h2 {
+        margin-left: 0.5em;
+      }
+
       .conteneur {
-        width: 70vw;
+        width: 85vw;
       }
 
       #hebergements img {
-        width: 75vw;
+        width: 90vw;
+      }
+
+      #populaires {
+        margin: 0;
+        border-radius: 0;
       }
       
       .entier {
-        width: 80vw;
+        width: 85vw;
       }
 
       .entier img {
-        width: 80vw;
+        width: 85vw;
         height: 10em;
       }
     
       .moitie {
-        width: 80vw;
+        width: 85vw;
       }
 
       .moitie img {
-        width: 80vw;
+        width: 85vw;
         height: 10em;
       }
-    
+      
+      #activites h2 {
+        margin-left: 1.2em;
+        margin-top: 2em;
+      }
       
     }
   }
@@ -698,6 +722,3 @@ footer ul li a:hover {
 
 
 }
-
-
-/* --- SMALL SCREEN < 1312px --- */
