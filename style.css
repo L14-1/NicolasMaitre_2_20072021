@@ -9,7 +9,6 @@ html {
   min-width: 319px;
 }
 
-
 body,
 button {
   font-family: "raleway", sans-serif;
@@ -107,7 +106,7 @@ header nav .inscription_btn:hover {
 
 .rechercher,
 .loupe {
-  border: 2px solid #0065fc;
+  border: solid #0065fc;
   background-color: #0065fc;
   color: white;
   cursor: pointer;
@@ -126,8 +125,6 @@ header nav .inscription_btn:hover {
   border: solid #f2f2f2;
   padding: 1em;
 }
-
-
 
 .loupe {
   display: none;
@@ -163,7 +160,6 @@ button .filtresboutton {
 
 button .filtresboutton i {
   margin-right: 0.5em;
-  
 }
 
 #filtres h2 {
@@ -291,7 +287,7 @@ button i {
   border-radius: 0.6em;
   height: 36em;
   width: auto;
-  flex: 1 27%
+  flex: 1 27%;
 }
 
 .colomne {
@@ -357,7 +353,7 @@ h6 {
 }
 
 #populaires .resume h3 {
-  margin: 0
+  margin: 0;
 }
 
 #populaires .resume p {
@@ -480,12 +476,7 @@ footer ul li a:hover {
 
 /* ----------------------------- RESPONSIVE ------------------------------------- */
 
-
-
-/* --- TABLET --- */
-
 @media all and (max-width: 1098px) {
-
   #milieu_de_page {
     flex-direction: column-reverse;
   }
@@ -523,7 +514,6 @@ footer ul li a:hover {
   #populaires img {
     height: 11em;
   }
-  
 
   .colomne {
     flex-direction: row;
@@ -561,12 +551,13 @@ footer ul li a:hover {
     margin-top: 1em;
   }
 
-
-
   @media all and (max-width: 964px) {
-
     .colomne {
       flex-direction: column;
+    }
+
+    #populaires .resume {
+      width: 17em;
     }
 
     .conteneur_bis {
@@ -579,72 +570,69 @@ footer ul li a:hover {
       width: fit-content;
       padding-bottom: 3em;
     }
-  
+
     #pied_de_page ul {
       margin-top: auto;
     }
-  
+
     footer ul:nth-child(n + 2) {
       margin: 0;
     }
-  
+
     footer ul li a:hover {
       text-decoration: none;
     }
-    
 
     @media all and (max-width: 688px) {
-
       header nav {
         flex-flow: row wrap;
         margin-top: 0;
       }
-    
+
       nav a:nth-child(2) {
         order: 3;
       }
-    
+
       nav a:nth-child(3) {
         order: 4;
       }
-    
+
       header nav a img {
         padding: 2em 0 0 1em;
       }
-    
+
       header nav a {
         flex: 1 40%;
         padding-right: 0px;
         padding: 0em;
-
       }
 
       header nav .trait {
         border-bottom: 4px solid #f2f2f2;
         text-align: center;
       }
-    
+
       header nav .inscription {
         text-align: right;
         margin-right: 1em;
       }
-      
+
       header nav .trait:hover {
         border-bottom: 4px solid #0065fc;
         border-top: none;
       }
-    
+
       header nav .inscription_btn:hover {
         border: none;
         color: #0065fc;
         background-color: transparent;
       }
-      
+
       #corps {
         margin-right: 0;
         margin-left: 0;
       }
-      
+
       .en_tete {
         margin-left: 1em;
         margin-right: 1em;
@@ -653,19 +641,21 @@ footer ul li a:hover {
         width: auto;
         justify-content: space-evenly;
       }
-      
+
       #lieu {
         width: 50vw;
       }
-    
+
       .rechercher {
         display: none;
       }
-    
+
       .loupe {
         display: inline;
+        border-radius: 0.9em;
+        padding: 0.75em 0.75em 0.8em 0.8em;
       }
-    
+
       #filtres {
         flex-direction: column;
         height: auto;
@@ -673,11 +663,11 @@ footer ul li a:hover {
         margin-left: 1em;
         margin-right: 1em;
       }
-    
+
       .filtresboutton {
         margin-top: 1.5em;
       }
-      
+
       .titre_pop {
         margin-left: 0.7em;
         margin-right: 0.7em;
@@ -705,7 +695,11 @@ footer ul li a:hover {
         margin: 0;
         border-radius: 0;
       }
-      
+
+      #populaires .resume {
+        width: 13em;
+      }
+
       .entier {
         width: 85vw;
       }
@@ -714,7 +708,7 @@ footer ul li a:hover {
         width: 85vw;
         height: 10em;
       }
-    
+
       .moitie {
         width: 85vw;
       }
@@ -723,16 +717,11 @@ footer ul li a:hover {
         width: 85vw;
         height: 10em;
       }
-      
+
       #activites h2 {
         margin-left: 1.2em;
         margin-top: 2em;
       }
-      
     }
   }
-
-  
-
-
 }
