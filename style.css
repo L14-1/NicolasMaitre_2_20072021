@@ -476,7 +476,7 @@ footer ul li a:hover {
 
 /* ----------------------------- RESPONSIVE ------------------------------------- */
 
-@media all and (max-width: 1098px) and (min-width: 964.1px) {
+@media all and (max-width: 1098px) {
   #milieu_de_page {
     flex-direction: column-reverse;
   }
@@ -553,80 +553,8 @@ footer ul li a:hover {
 
 }
 
-@media all and (max-width: 964px) and (min-width: 688.1px) {
-  #milieu_de_page {
-    flex-direction: column-reverse;
-  }
-
-  .conteneur_bis {
-    width: 25vw;
-  }
-
-  #hebergements {
-    width: auto;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-top: 3em;
-  }
-
-  #hebergements h2 {
-    margin-top: 1em;
-  }
-
-  .conteneur {
-    width: 24vw;
-  }
-
-  #hebergements img {
-    width: 30em;
-  }
-
-  #populaires {
-    width: auto;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    height: auto;
-  }
-
-  #populaires img {
-    height: 11em;
-  }
-
-  .colomne {
-    flex-direction: row;
-    height: auto;
-    margin-bottom: 1em;
-    justify-content: space-around;
-  }
-
-  .cadre {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .moitie {
-    order: 2;
-  }
-
-  .entier {
-    width: 40vw;
-  }
-
-  .entier img {
-    width: 60vw;
-  }
-
-  .moitie {
-    width: 40vw;
-  }
-
-  .moitie img {
-    width: 60vw;
-  }
-
-  .conteneur_act {
-    margin-top: 1em;
-  }
+@media all and (max-width: 964px) {
+  
   
   .colomne {
     flex-direction: column;
@@ -662,111 +590,6 @@ footer ul li a:hover {
 }
 
 @media all and (max-width: 688px) {
-  #milieu_de_page {
-    flex-direction: column-reverse;
-  }
-
-  .conteneur_bis {
-    width: 25vw;
-  }
-
-  #hebergements {
-    width: auto;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-top: 3em;
-  }
-
-  #hebergements h2 {
-    margin-top: 1em;
-  }
-
-  .conteneur {
-    width: 24vw;
-  }
-
-  #hebergements img {
-    width: 30em;
-  }
-
-  #populaires {
-    width: auto;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    height: auto;
-  }
-
-  #populaires img {
-    height: 11em;
-  }
-
-  .colomne {
-    flex-direction: row;
-    height: auto;
-    margin-bottom: 1em;
-    justify-content: space-around;
-  }
-
-  .cadre {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .moitie {
-    order: 2;
-  }
-
-  .entier {
-    width: 40vw;
-  }
-
-  .entier img {
-    width: 60vw;
-  }
-
-  .moitie {
-    width: 40vw;
-  }
-
-  .moitie img {
-    width: 60vw;
-  }
-
-  .conteneur_act {
-    margin-top: 1em;
-  }
-  
-  .colomne {
-    flex-direction: column;
-  }
-
-  #populaires .resume {
-    width: 17em;
-  }
-
-  .conteneur_bis {
-    width: 85vw;
-  }
-
-  #pied_de_page {
-    flex-direction: column;
-    height: 20em;
-    width: fit-content;
-    padding-bottom: 3em;
-  }
-
-  #pied_de_page ul {
-    margin-top: auto;
-  }
-
-  footer ul:nth-child(n + 2) {
-    margin: 0;
-  }
-
-  footer ul li a:hover {
-    text-decoration: none;
-  }
-  
   header nav {
     flex-flow: row wrap;
     margin-top: 0;
