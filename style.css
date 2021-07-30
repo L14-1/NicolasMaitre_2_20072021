@@ -476,7 +476,7 @@ footer ul li a:hover {
 
 /* ----------------------------- RESPONSIVE ------------------------------------- */
 
-@media all and (max-width: 1098px) {
+@media all and (max-width: 1098px) and (min-width: 964.1px) {
   #milieu_de_page {
     flex-direction: column-reverse;
   }
@@ -551,177 +551,358 @@ footer ul li a:hover {
     margin-top: 1em;
   }
 
-  @media all and (max-width: 964px) {
-    .colomne {
-      flex-direction: column;
-    }
+}
 
-    #populaires .resume {
-      width: 17em;
-    }
+@media all and (max-width: 964px) and (min-width: 688.1px) {
+  #milieu_de_page {
+    flex-direction: column-reverse;
+  }
 
-    .conteneur_bis {
-      width: 85vw;
-    }
+  .conteneur_bis {
+    width: 25vw;
+  }
 
-    #pied_de_page {
-      flex-direction: column;
-      height: 20em;
-      width: fit-content;
-      padding-bottom: 3em;
-    }
+  #hebergements {
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 3em;
+  }
 
-    #pied_de_page ul {
-      margin-top: auto;
-    }
+  #hebergements h2 {
+    margin-top: 1em;
+  }
 
-    footer ul:nth-child(n + 2) {
-      margin: 0;
-    }
+  .conteneur {
+    width: 24vw;
+  }
 
-    footer ul li a:hover {
-      text-decoration: none;
-    }
+  #hebergements img {
+    width: 30em;
+  }
 
-    @media all and (max-width: 688px) {
-      header nav {
-        flex-flow: row wrap;
-        margin-top: 0;
-      }
+  #populaires {
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: auto;
+  }
 
-      nav a:nth-child(2) {
-        order: 3;
-      }
+  #populaires img {
+    height: 11em;
+  }
 
-      nav a:nth-child(3) {
-        order: 4;
-      }
+  .colomne {
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 1em;
+    justify-content: space-around;
+  }
 
-      header nav a img {
-        padding: 2em 0 0 1em;
-      }
+  .cadre {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-      header nav a {
-        flex: 1 40%;
-        padding-right: 0px;
-        padding: 0em;
-      }
+  .moitie {
+    order: 2;
+  }
 
-      header nav .trait {
-        border-bottom: 4px solid #f2f2f2;
-        text-align: center;
-      }
+  .entier {
+    width: 40vw;
+  }
 
-      header nav .inscription {
-        text-align: right;
-        margin-right: 1em;
-      }
+  .entier img {
+    width: 60vw;
+  }
 
-      header nav .trait:hover {
-        border-bottom: 4px solid #0065fc;
-        border-top: none;
-      }
+  .moitie {
+    width: 40vw;
+  }
 
-      header nav .inscription_btn:hover {
-        border: none;
-        color: #0065fc;
-        background-color: transparent;
-      }
+  .moitie img {
+    width: 60vw;
+  }
 
-      #corps {
-        margin-right: 0;
-        margin-left: 0;
-      }
+  .conteneur_act {
+    margin-top: 1em;
+  }
+  
+  .colomne {
+    flex-direction: column;
+  }
 
-      .en_tete {
-        margin-left: 1em;
-        margin-right: 1em;
-      }
-      #recherche {
-        width: auto;
-        justify-content: space-evenly;
-      }
+  #populaires .resume {
+    width: 17em;
+  }
 
-      #lieu {
-        width: 50vw;
-      }
+  .conteneur_bis {
+    width: 85vw;
+  }
 
-      .rechercher {
-        display: none;
-      }
+  #pied_de_page {
+    flex-direction: column;
+    height: 20em;
+    width: fit-content;
+    padding-bottom: 3em;
+  }
 
-      .loupe {
-        display: inline;
-        border-radius: 0.9em;
-        padding: 0.75em 0.75em 0.8em 0.8em;
-      }
+  #pied_de_page ul {
+    margin-top: auto;
+  }
 
-      #filtres {
-        flex-direction: column;
-        height: auto;
-        width: auto;
-        margin-left: 1em;
-        margin-right: 1em;
-      }
+  footer ul:nth-child(n + 2) {
+    margin: 0;
+  }
 
-      .filtresboutton {
-        margin-top: 1.5em;
-      }
+  footer ul li a:hover {
+    text-decoration: none;
+  }
 
-      .titre_pop {
-        margin-left: 0.7em;
-        margin-right: 0.7em;
-        justify-content: space-between;
-      }
+}
 
-      #hebergements {
-        background-color: white;
-        border-color: transparent;
-      }
+@media all and (max-width: 688px) {
+  #milieu_de_page {
+    flex-direction: column-reverse;
+  }
 
-      #hebergements h2 {
-        margin-left: 0.5em;
-      }
+  .conteneur_bis {
+    width: 25vw;
+  }
 
-      .conteneur {
-        width: 85vw;
-      }
+  #hebergements {
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-top: 3em;
+  }
 
-      #hebergements img {
-        width: 90vw;
-      }
+  #hebergements h2 {
+    margin-top: 1em;
+  }
 
-      #populaires {
-        margin: 0;
-        border-radius: 0;
-      }
+  .conteneur {
+    width: 24vw;
+  }
 
-      #populaires .resume {
-        width: 13em;
-      }
+  #hebergements img {
+    width: 30em;
+  }
 
-      .entier {
-        width: 85vw;
-      }
+  #populaires {
+    width: auto;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: auto;
+  }
 
-      .entier img {
-        width: 85vw;
-        height: 10em;
-      }
+  #populaires img {
+    height: 11em;
+  }
 
-      .moitie {
-        width: 85vw;
-      }
+  .colomne {
+    flex-direction: row;
+    height: auto;
+    margin-bottom: 1em;
+    justify-content: space-around;
+  }
 
-      .moitie img {
-        width: 85vw;
-        height: 10em;
-      }
+  .cadre {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-      #activites h2 {
-        margin-left: 1.2em;
-        margin-top: 2em;
-      }
-    }
+  .moitie {
+    order: 2;
+  }
+
+  .entier {
+    width: 40vw;
+  }
+
+  .entier img {
+    width: 60vw;
+  }
+
+  .moitie {
+    width: 40vw;
+  }
+
+  .moitie img {
+    width: 60vw;
+  }
+
+  .conteneur_act {
+    margin-top: 1em;
+  }
+  
+  .colomne {
+    flex-direction: column;
+  }
+
+  #populaires .resume {
+    width: 17em;
+  }
+
+  .conteneur_bis {
+    width: 85vw;
+  }
+
+  #pied_de_page {
+    flex-direction: column;
+    height: 20em;
+    width: fit-content;
+    padding-bottom: 3em;
+  }
+
+  #pied_de_page ul {
+    margin-top: auto;
+  }
+
+  footer ul:nth-child(n + 2) {
+    margin: 0;
+  }
+
+  footer ul li a:hover {
+    text-decoration: none;
+  }
+  
+  header nav {
+    flex-flow: row wrap;
+    margin-top: 0;
+  }
+
+  nav a:nth-child(2) {
+    order: 3;
+  }
+
+  nav a:nth-child(3) {
+    order: 4;
+  }
+
+  header nav a img {
+    padding: 2em 0 0 1em;
+  }
+
+  header nav a {
+    flex: 1 40%;
+    padding-right: 0px;
+    padding: 0em;
+  }
+
+  header nav .trait {
+    border-bottom: 4px solid #f2f2f2;
+    text-align: center;
+  }
+
+  header nav .inscription {
+    text-align: right;
+    margin-right: 1em;
+  }
+
+  header nav .trait:hover {
+    border-bottom: 4px solid #0065fc;
+    border-top: none;
+  }
+
+  header nav .inscription_btn:hover {
+    border: none;
+    color: #0065fc;
+    background-color: transparent;
+  }
+
+  #corps {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .en_tete {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  #recherche {
+    width: auto;
+    justify-content: space-evenly;
+  }
+
+  #lieu {
+    width: 50vw;
+  }
+
+  .rechercher {
+    display: none;
+  }
+
+  .loupe {
+    display: inline;
+    border-radius: 0.9em;
+    padding: 0.75em 0.75em 0.8em 0.8em;
+  }
+
+  #filtres {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .filtresboutton {
+    margin-top: 1.5em;
+  }
+
+  .titre_pop {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    justify-content: space-between;
+  }
+
+  #hebergements {
+    background-color: white;
+    border-color: transparent;
+  }
+
+  #hebergements h2 {
+    margin-left: 0.5em;
+  }
+
+  .conteneur {
+    width: 85vw;
+  }
+
+  #hebergements img {
+    width: 90vw;
+  }
+
+  #populaires {
+    margin: 0;
+    border-radius: 0;
+  }
+
+  #populaires .resume {
+    width: 13em;
+  }
+
+  .entier {
+    width: 85vw;
+  }
+
+  .entier img {
+    width: 85vw;
+    height: 10em;
+  }
+
+  .moitie {
+    width: 85vw;
+  }
+
+  .moitie img {
+    width: 85vw;
+    height: 10em;
+  }
+
+  #activites h2 {
+    margin-left: 1.2em;
+    margin-top: 2em;
   }
 }
