@@ -615,7 +615,7 @@ footer ul li a:hover {
       header nav a {
         flex: 1 40%;
         padding-right: 0px;
-        padding: 0em; !important
+        padding: 0em;
 
       }
 
@@ -634,10 +634,10 @@ footer ul li a:hover {
         border-top: none;
       }
     
-      header nav .inscription:hover {
+      header nav .inscription_btn:hover {
         border: none;
         color: #0065fc;
-        background-color: white;
+        background-color: transparent;
       }
       
       #corps {
