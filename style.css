@@ -275,11 +275,6 @@ button i {
 }
 
 .conteneur {
-  border-radius: 1em;
-  border: 5px solid white;
-  overflow: hidden;
-  background-color: white;
-  box-shadow: 0px 0px 12px 3px #d2d2d2;
   margin-bottom: 2em;
 }
 
@@ -455,11 +450,10 @@ footer {
 #pied_de_page {
   display: flex;
   flex-direction: row;
-  width: fit-content;
 }
 
-footer ul:nth-child(n + 2) {
-  margin-left: 10em;
+footer ul {
+  margin-right: 10em;
 }
 
 footer ul li:first-child {
@@ -689,6 +683,10 @@ footer ul li a:hover {
 
   #hebergements h2 {
     margin-left: 0.5em;
+  }
+
+  #hebergements .conteneur img {
+    height: 16vh;
   }
 
   .conteneur {
